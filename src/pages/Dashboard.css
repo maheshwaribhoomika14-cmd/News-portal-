@@ -1,0 +1,110 @@
+/* =========================
+   GLOBAL FIX (VERY IMPORTANT)
+   ========================= */
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background-color: #f1f5f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* =========================
+   DASHBOARD CONTAINER
+   ========================= */
+.dashboard {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #e0e7ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* =========================
+   HEADING
+   ========================= */
+.dashboard h2 {
+  text-align: center;
+  color: #1e40af;
+  margin-bottom: 25px;
+}
+
+/* =========================
+   INPUTS / SELECT / TEXTAREA
+   ========================= */
+.dashboard input,
+.dashboard select,
+.dashboard textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #c7c7c7;
+  font-size: 15px;
+}
+
+.dashboard input:focus,
+.dashboard select:focus,
+.dashboard textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* =========================
+   BUTTONS
+   ========================= */
+.dashboard button {
+  padding: 10px 18px;
+  margin-top: 12px;
+  border-radius: 6px;
+  border: none;
+  background-color: #3b82f6;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.dashboard button:hover {
+  background-color: #2563eb;
+}
+
+.dashboard button + button {
+  background-color: #6b7280;
+  margin-left: 10px;
+}
+
+.dashboard button + button:hover {
+  background-color: #4b5563;
+}
+
+/* =========================
+   NEWS CARD
+   ========================= */
+.news-card {
+  background-color: #ffffff;
+  border: 1px solid #d1d9e6;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+}
+
+.news-card h4 {
+  margin-bottom: 6px;
+  color: #1f2937;
+}
+
+.news-card p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.news-card button {
+  font-size: 14px;
+  padding: 6px 12px;
+}

@@ -1,0 +1,49 @@
+/* Home.css */
+
+/* Container background thoda dark, light gray-blue ke bajaye halki dark */
+div {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #d6dde6; /* halki grayish-blue, thodi dark */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+h1 {
+  text-align: center;
+  color: #1e2a38; /* thoda dark slate blue */
+  margin-bottom: 30px;
+}
+
+/* Each news item card */
+.news-item {
+  background-color: #f0f4f8; /* thoda darker than white */
+  border: 1px solid #a3afc0; /* thoda dark border */
+  border-radius: 6px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.news-item:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.news-item h3 {
+  margin: 0 0 10px 0;
+  color: #2a3b4d; /* dark gray-blue */
+}
+
+.news-item p {
+  color: #444f60; /* medium-dark gray */
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.news-item small {
+  color: #6c7a8a; /* lighter gray */
+  font-style: italic;
+}
